@@ -3,10 +3,10 @@ Backend server for my app peligro
 ## Database
 ```
 CREATE TABLE userData (
-    name VARCHAR2(40) CONSTRAINT NN_userData_name NOT NULL,
+    name VARCHAR2(40) CONSTRAINT NN_userData_name,
     Phone NUMBER(10) CONSTRAINT NN_userData_Phone NOT NULL,
-    email VARCHAR2(40) CONSTRAINT NN_userData_email NOT NULL,
-    password VARCHAR2(40) CONSTRAINT NN_userData_password NOT NULL,
+    email VARCHAR2(40) CONSTRAINT NN_userData_email,
+    password VARCHAR2(40) CONSTRAINT NN_userData_password,
     gender VARCHAR2(40),
     disease VARCHAR2(40),
     dob varchar2(20),
